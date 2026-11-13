@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato e compartilhe suas ideias sobre APEX: Racing Beyond Time.">
+    <title>Contato | APEX: Racing Beyond Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">APEX<span>.</span></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Universo</a></li>
+                <li><a href="history.html">História</a></li>
+                <li><a href="behind.html">Por Trás das Linhas</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="pagina-hero contato-hero">
+            <span class="etiqueta">APEX: RACING BEYOND TIME</span>
+
+            <h1>ENTRE EM CONTATO</h1>
+
+            <p>
+                Toda grande história começa com uma ideia.
+                Compartilhe a sua e faça parte do universo APEX.
+            </p>
+        </section>
+
+        <section class="contato-intro">
+            <h2>SUA OPINIÃO IMPORTA</h2>
+
+            <p>
+                Queremos saber o que você pensa sobre APEX.
+                Envie suas dúvidas, compartilhe sugestões e conte
+                como gostaria de ver essa história ganhar vida.
+            </p>
+        </section>
+
+        <section class="formulario-contato" id="formulario">
+
+            <div class="formulario-cabecalho">
+                <span class="etiqueta">FALE CONOSCO</span>
+                <h2>ENVIE SUA MENSAGEM</h2>
+                <p>Preencha os campos abaixo para entrar em contato.</p>
+            </div>
+
+            <form action="https://formspree.io/f/mgakvygw" method="POST">
+
+                <div class="campo-formulario">
+                    <label for="nome">NOME</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="name"
+                        placeholder="Digite seu nome"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="email">E-MAIL</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu e-mail"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="assunto">ASSUNTO</label>
+                    <select id="assunto" name="subject" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="Dúvida sobre APEX">Dúvida</option>
+                        <option value="Sugestão para APEX">Sugestão</option>
+                        <option value="Opinião sobre APEX">Opinião sobre APEX</option>
+                        <option value="Outro assunto — APEX">Outro</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="mensagem">SUA MENSAGEM</label>
+                    <textarea
+                        id="mensagem"
+                        name="message"
+                        rows="5"
+                        placeholder="Escreva sua dúvida ou mensagem..."
+                        required
+                    ></textarea>
+                </div>
+
+                <div class="pesquisa-apex">
+                    <span class="etiqueta">O FUTURO DE APEX</span>
+
+                    <h2>COMO VOCÊ GOSTARIA DE VIVER ESSA HISTÓRIA?</h2>
+
+                    <p>
+                        Se APEX: Racing Beyond Time se tornasse uma produção,
+                        quais formatos você gostaria de experimentar?
+                        Você pode escolher mais de uma opção.
+                    </p>
+
+                    <div class="opcoes-apex">
+
+                        <label class="opcao-checkbox">
+                            <input type="checkbox" name="formato" value="jogo">
+                            <span>Um jogo de corrida baseado na história de APEX</span>
+                        </label>
+
+                        <label class="opcao-checkbox">
+                            <input type="checkbox" name="formato" value="filme">
+                            <span>Um filme contando a saga de APEX</span>
+                        </label>
+
+                        <label class="opcao-checkbox">
+                            <input type="checkbox" name="formato" value="serie">
+                            <span>Uma série com várias temporadas</span>
+                        </label>
+
+                        <label class="opcao-checkbox">
+                            <input type="checkbox" name="formato" value="animacao">
+                            <span>Uma série animada</span>
+                        </label>
+
+                    </div>
+                </div>
+
+                <div class="caixa-sugestoes">
+                    <span class="etiqueta">SUA CRIATIVIDADE</span>
+
+                    <h2>CAIXA DE SUGESTÕES</h2>
+
+                    <p>
+                        Tem alguma ideia para uma nova corrida, personagem,
+                        época, história ou até um recurso para um futuro jogo?
+                        Queremos conhecer sua opinião!
+                    </p>
+
+                    <label for="sugestao">COMPARTILHE SUA IDEIA</label>
+
+                    <textarea
+                        id="sugestao"
+                        name="sugestao"
+                        rows="6"
+                        placeholder="Escreva sua sugestão aqui..."
+                    ></textarea>
+                </div>
+
+                <div class="aviso-formulario">
+                    <p>
+                        Ao enviar, suas respostas serão encaminhadas para a equipe APEX.
+                        Não compartilhe informações pessoais sensíveis.
+                    </p>
+                </div>
+
+                <button type="submit" class="botao">ENVIAR MENSAGEM</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 APEX: RACING BEYOND TIME. TODOS OS DIREITOS RESERVADOS.</p>
+    </footer>
+
+</body>
+</html>
