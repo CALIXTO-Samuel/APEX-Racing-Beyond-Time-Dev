@@ -51,10 +51,10 @@
             <div class="formulario-cabecalho">
                 <span class="etiqueta">FALE CONOSCO</span>
                 <h2>ENVIE SUA MENSAGEM</h2>
-                <p>Preencha os campos abaixo para participar da demonstração.</p>
+                <p>Envie suas dúvidas, comentários ou sugestões sobre o universo APEX.</p>
             </div>
 
-            <form action="contact.html" method="GET">
+            <form action="https://formspree.io/f/mgakvygw" method="POST">
 
                 <div class="campo-formulario">
                     <label for="nome">NOME</label>
@@ -62,7 +62,7 @@
                         type="text"
                         id="nome"
                         name="name"
-                        placeholder="Digite um nome fictício"
+                        placeholder="Digite seu nome"
                         autocomplete="off"
                         required
                     >
@@ -74,7 +74,7 @@
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="Digite um e-mail fictício"
+                        placeholder="Digite seu e-mail"
                         autocomplete="off"
                         required
                     >
@@ -97,7 +97,7 @@
                         id="mensagem"
                         name="message"
                         rows="5"
-                        placeholder="Escreva uma mensagem fictícia..."
+                        placeholder="Escreva uma mensagem..."
                         required
                     ></textarea>
                 </div>
@@ -155,17 +155,13 @@
                         id="sugestao"
                         name="sugestao"
                         rows="6"
-                        placeholder="Escreva uma sugestão fictícia..."
+                        placeholder="Compartilhe sua ideia..."
                     ></textarea>
                 </div>
 
                 <div class="aviso-formulario">
                     <p>
-                        Este formulário é apenas uma demonstração acadêmica.
-                        Todos os dados utilizados devem ser fictícios.
-                        As informações não são armazenadas nem enviadas por e-mail.
-                        Ao utilizar o método GET, os valores aparecem no endereço
-                        da página. Não informe dados pessoais reais.
+                        Este formulário permite enviar mensagens à equipe APEX por meio do Formspree. Preencha apenas as informações necessárias e não envie dados pessoais sensíveis. Ao enviar, sua mensagem será encaminhada ao responsável pelo projeto.
                     </p>
                 </div>
 
