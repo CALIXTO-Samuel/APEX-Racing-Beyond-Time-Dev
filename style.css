@@ -916,6 +916,9 @@ nav a:hover {
     border: 1px solid var(--borda);
 }
 
+#formulario {
+    scroll-margin-top: 100px;
+}
 .formulario-cabecalho {
     text-align: center;
     margin-bottom: 45px;
@@ -1850,4 +1853,63 @@ footer p:nth-child(2) {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* =========================================
+   LISTA DE CONTEÚDOS APEX
+========================================= */
+
+.conteudos-apex {
+    max-width: 1100px;
+    margin: 70px auto;
+    padding: 45px;
+    background-color: var(--fundo-secundario);
+    border: 1px solid var(--borda);
+}
+
+.conteudos-apex h2 {
+    margin-bottom: 30px;
+}
+
+.conteudos-apex ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.conteudos-apex li {
+    border-left: 3px solid var(--dourado);
+    background-color: var(--preto-profundo);
+    padding: 18px 22px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.conteudos-apex li:hover {
+    border-color: var(--vermelho);
+    transform: translateX(5px);
+}
+
+.conteudos-apex a {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.conteudos-apex a:hover {
+    color: var(--dourado);
+}
+
+@media (max-width: 600px) {
+    .conteudos-apex {
+        margin: 45px 5%;
+        padding: 25px;
+    }
+
+    .conteudos-apex ul {
+        grid-template-columns: 1fr;
+    }
 }

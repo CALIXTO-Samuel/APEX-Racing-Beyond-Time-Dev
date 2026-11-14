@@ -51,10 +51,10 @@
             <div class="formulario-cabecalho">
                 <span class="etiqueta">FALE CONOSCO</span>
                 <h2>ENVIE SUA MENSAGEM</h2>
-                <p>Preencha os campos abaixo para entrar em contato.</p>
+                <p>Preencha os campos abaixo para participar da demonstração.</p>
             </div>
 
-            <form action="https://formspree.io/f/mgakvygw" method="POST">
+            <form action="contact.html" method="GET">
 
                 <div class="campo-formulario">
                     <label for="nome">NOME</label>
@@ -62,8 +62,8 @@
                         type="text"
                         id="nome"
                         name="name"
-                        placeholder="Digite seu nome"
-                        autocomplete="name"
+                        placeholder="Digite um nome fictício"
+                        autocomplete="off"
                         required
                     >
                 </div>
@@ -74,8 +74,8 @@
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="Digite seu e-mail"
-                        autocomplete="email"
+                        placeholder="Digite um e-mail fictício"
+                        autocomplete="off"
                         required
                     >
                 </div>
@@ -97,7 +97,7 @@
                         id="mensagem"
                         name="message"
                         rows="5"
-                        placeholder="Escreva sua dúvida ou mensagem..."
+                        placeholder="Escreva uma mensagem fictícia..."
                         required
                     ></textarea>
                 </div>
@@ -155,14 +155,17 @@
                         id="sugestao"
                         name="sugestao"
                         rows="6"
-                        placeholder="Escreva sua sugestão aqui..."
+                        placeholder="Escreva uma sugestão fictícia..."
                     ></textarea>
                 </div>
 
                 <div class="aviso-formulario">
                     <p>
-                        Ao enviar, suas respostas serão encaminhadas para a equipe APEX.
-                        Não compartilhe informações pessoais sensíveis.
+                        Este formulário é apenas uma demonstração acadêmica.
+                        Todos os dados utilizados devem ser fictícios.
+                        As informações não são armazenadas nem enviadas por e-mail.
+                        Ao utilizar o método GET, os valores aparecem no endereço
+                        da página. Não informe dados pessoais reais.
                     </p>
                 </div>
 
